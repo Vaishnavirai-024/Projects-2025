@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(86, 84, 84);
+}
+.header{
+    color: white;
+    text-align: center;
+
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box{
+    background-color: rgb(37, 37, 37);
+    border: 2px solid black;
+    height: 600px;
+    width: 500px;
+    padding: 18px;
+    border: none;
+    border-radius: 5px;
+    
+
+}
+#box h1{
+    color: white;
+}
+#firstname{
+    width: 210px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 39px 19px 8px 19px;
+    background-color: rgb(45, 42, 42);
+    color: rgb(235, 221, 221);
+    border: none;
+
+}
+#firstname:hover{
+    background-color: rgb(59, 57, 57);
+
+}
+#lastname{
+    width: 210px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(45, 42, 42);
+    color: rgb(235, 221, 221);
+    border: none;
+}
+#lastname:hover{
+    background-color: rgb(59, 57, 57);
+
+}
+#email{
+    width: 410px;
+    height: 40px;
+    margin: 17px 16px 13px 20px;
+    border-radius: 5px;
+    background-color: rgb(45, 42, 42);
+    color: rgb(235, 221, 221);
+    border: none;
+}
+#email:hover{
+    background-color: rgb(59, 57, 57);
+
+}
+#password{
+    width: 410px;
+    height: 40px;
+    margin: 0px 0px 0px 22px;
+    border-radius: 5px;
+    background-color: rgb(45, 42, 42);
+    color: rgb(235, 221, 221);
+    border: none;
+}
+#password:hover{
+    background-color: rgb(59, 57, 57);
+
+}
+#checking{
+    display: flex;
+    margin-left:19px
+}
+#checking p{
+    color: rgb(186, 183, 183);
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+}
+button{
+    height: 38px;
+    width: 420px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    margin: 20px 26px 0px 4px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+#option{
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(115, 106, 106);
+}
+
+.sign-in{
+   display: flex;
+}
+#btn-1{
+    background-color: rgb(45, 42, 42);
+    border: none;
+    color: rgb(235, 221, 221);
+    font-weight: 100;
+    font-size: 15px;
+}
+#btn-2{
+    background-color: rgb(45, 42, 42);
+    border: none;
+    color: rgb(235, 221, 221);
+    font-weight: 100;
+    font-size: 15px;
+
+
+}
+#btn-1 img{
+    height: 21px;
+    width: 20px;
+    margin-left: 12px;
+    /* padding: 10px; */
+}
+#btn-2 img{
+    height: 20px;
+    width: 20px;
+    margin-left: 12px;
+
+}
+.btn button:hover{
+    background-color: rgb(170, 90, 245);
+}
+#btn-1:hover{
+    background-color: rgb(59, 57, 57);
+}
+#btn-2:hover{
+    background-color: rgb(59, 57, 57);
+}
+
+

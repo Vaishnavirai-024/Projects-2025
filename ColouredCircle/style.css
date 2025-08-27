@@ -1,0 +1,22 @@
+#Undo , #Redo , #Reset{
+    border: none;
+    background-color: rgb(64, 52, 240);
+    color: white;
+    height: 25px;
+    width: 50px;
+    border-radius: 3px;
+
+}
+#Undo:hover , #Redo:hover , #Reset:hover{
+    background-color: rgb(20, 20, 240);
+}
+
+.circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+}
+body{
+    height: 100vh
+}

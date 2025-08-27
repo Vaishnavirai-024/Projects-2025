@@ -1,0 +1,70 @@
+.main-box{
+    background-color: rgb(190, 90, 2);
+    height: 420px;
+    width: 256px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 6px solid black;
+    border-radius: 12px;
+
+
+}
+.main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#red{
+    background-color: red;
+    height: 111px;
+    width: 129px;
+    border-radius: 50%;
+    margin: 0px;
+    border: 3px solid black;
+}
+#yellow{
+    background-color: yellow;
+    height: 111px;
+    width: 129px;
+    border-radius: 50%;
+    border: 3px solid black;
+
+
+}
+#green{
+    background-color: green;
+    height: 111px;
+    width: 129px;
+    border-radius: 50%;
+    border: 3px solid black;
+
+
+}
+#pole-1{
+
+    height: 113px;
+    width: 40px;
+    background-color: black;
+
+    
+}
+#pole-2{
+    height: 39px;
+    width: 366px;
+    background-color: black;
+    border-radius: 12px;
+
+    
+}
+.div-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

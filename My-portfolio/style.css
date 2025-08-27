@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter',sans-serif;
+    color: rgb(213, 207, 207);
+}
+body{
+    background-color: rgb(8, 8, 8);
+}
+.heading{
+    color: white;
+}
+.about{
+    color: white;
+}
+
+.logo img{
+    height: 84px;
+    width: 130px;
+}
+header {
+    display: flex;
+    justify-content: flex-start;
+     /* push logo block to the right */
+}
+
+.logo {
+    display: flex;
+    align-items: center;  /* vertically center img & text */
+    gap: 495px;
+}
+
+
+
+.logo h1 {
+    color: white;
+    margin: 0;
+}
+.about h3{
+    margin-top: 161px;
+    margin-left: 126px;
+    font-size: 55px;
+}
+
+.about{
+    display: flex;
+    /* height: 40px;
+    width: 30px; */
+    
+}
+.about img{
+    margin-top: 132px;
+    margin-left: 193px;
+    height: 300px;
+    width: 291px;
+}
+.header-content{
+    position: fixed;
+}
+.skills{
+    margin:11px 15px 9px 166px;
+    display: flex;
+}
+.programming{
+    margin-right: 90px;
+}
+.frontend{
+    margin-right: 90px;
+}
+.backend{
+    margin-right: 90px;
+}
+.frameworks{
+    margin-right: 90px;
+}
+.skills p{
+    font-size: 18px;
+}
+.uni{
+    display: flex;
+    
+}
+.uni1{
+    margin-right: 451px;
+}
+.inter{
+    display: flex;
+    
+}
+.inter1{
+    margin-right: 432px;
+}
+.high{
+    display: flex;
+    
+}
+.high1{
+    margin-right: 440px;
+}
+

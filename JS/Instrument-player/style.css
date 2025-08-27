@@ -1,0 +1,60 @@
+.box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.boxes{
+    /* height: 40vh; */
+    height: 345px;
+    width: 300px;
+    border: 2px solid rgb(205, 85, 0);
+    box-shadow: 0 0 10px rgb(205, 85, 0);
+    border-radius: 6px;
+   
+}
+.heading{
+    text-align: center;
+    color: aliceblue;
+    font-weight: bolder;
+    font-family:unset ;
+}
+body{
+    background-color: black;
+}
+#drum img{
+    height: 348px;
+    width: 275px;
+}
+#guiter img{
+    height: 348px;
+    width: 275px;
+}
+#trumpet img{
+    height: 348px;
+    width: 275px;
+}
+#piano img{
+    height: 348px;
+    width: 275px;
+}
+#flute img{
+    height: 348px;
+    width: 275px;
+}
+#sitar img{
+   height: 348px;
+    width: 275px;
+}
+#voilin img{
+    height: 348px;
+    width: 275px;
+}
+#marcos img{
+   height: 348px;
+    width: 275px;
+}
+
+.boxes{
+    background-color: rgb(16, 16, 16);
+}
