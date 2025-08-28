@@ -37,3 +37,20 @@ document.querySelector("#Reset").addEventListener("click",()=>{
    redo.length=0;
    }
 });
+
+
+let t=true;
+
+document.querySelector(".mode").addEventListener("click",()=>{
+    let b=document.querySelector("body");
+    if(t==true){
+    b.style.backgroundColor="black";
+        t=false;
+}else{
+    b.style.backgroundColor="white";
+    t=true;
+}
+});
+
+
+

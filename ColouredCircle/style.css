@@ -18,5 +18,14 @@
     position: absolute;
 }
 body{
-    height: 100vh
+    height: 100vh;
+    display: flex;
+}
+.mode{
+    align-items: flex-end;
+
+}
+.container{
+    width: 90%;
+    
 }
