@@ -1,7 +1,7 @@
 const undo=[];
 const redo=[];
 document.body.addEventListener("click" ,(e)=>{
-    if(e.target.tagname=="BUTTON")return;
+    if(e.target.tagName=="BUTTON")return;
     const a=Math.floor(Math.random()*256);
     const b=Math.floor(Math.random()*256);
     const c=Math.floor(Math.random()*256);
@@ -20,8 +20,6 @@ document.querySelector("#Undo").addEventListener("click",()=>{
         const lastCircle=undo.pop();
         redo.push(lastCircle);
         lastCircle.remove();
-        console.log(undo.length);
-        console.log("redo "+redo.length);
     }
 });
 
@@ -33,8 +31,9 @@ document.querySelector("#Redo").addEventListener("click",()=>{
     }
 });
 document.querySelector("#Reset").addEventListener("click",()=>{
-    if(undo.length>0){
-        undo.pop.remove();
-    }
-    redo.length=0;
-})
+   while(undo.length>0){
+   const ele= undo.pop();
+   ele.remove();
+   redo.length=0;
+   }
+});
