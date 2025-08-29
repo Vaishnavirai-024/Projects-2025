@@ -1,0 +1,58 @@
+.container{
+    height: 250px ;
+    width: 600px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(221, 210, 210);
+    border-radius: 3px;  
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    text-align: center;
+    color: black
+}
+.input{
+    text-align: center;
+    background-color: black;
+    height: 25px;
+    width: 600px;
+    margin-left: 3px;
+    margin-bottom: 50px;
+    color: white;
+    border-radius: 3px;
+
+}
+.input input{
+    color: white;
+}
+.check{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.text{
+    color: black;
+    text-align: center;
+
+}
+.check button{
+    border: none;
+    border-radius: 3px solid rgb(97, 94, 94);
+    height: 28px;
+    width: 66px;
+    
+}
+#dob{
+    background-color: black;
+    border: none;
+}
+.check button :hover{
+    background-color: rgb(168, 78, 78);
+}
