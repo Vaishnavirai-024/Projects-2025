@@ -39,8 +39,8 @@ document.querySelector("#Reset").addEventListener("click",()=>{
 });
 
 
-let t=true;
 
+let t=true;
 document.querySelector(".mode").addEventListener("click",()=>{
     let b=document.querySelector("body");
     if(t==true){
