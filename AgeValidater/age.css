@@ -44,9 +44,11 @@ body{
 }
 .check button{
     border: none;
-    border-radius: 3px solid rgb(97, 94, 94);
+    /* border-radius: 5px solid rgb(97, 94, 94); */
     height: 28px;
     width: 66px;
+    background-color: black;
+    color: white;
     
 }
 #dob{
@@ -56,3 +58,39 @@ body{
 .check button :hover{
     background-color: rgb(168, 78, 78);
 }
+
+/* Style placeholder for Chrome/Edge/Safari */
+input[type="date"]::-webkit-datetime-edit {
+  color: gray;              /* text color */
+  font-style: normal;       /* italic style */
+  font-size: 20px;   
+         /* font size */
+}
+
+
+
+input[type="date"] {
+    border: 2px solid #070707;   /* custom border color */
+   
+    background-color: black;     /* background color */
+    color: white;                /* text color */
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(50%); /* just example styling */
+}
+
+input[type="date"]:focus {
+    outline: none;
+    border: 2px solid #060606;   /* focus border color */
+}
+
+ #dob{
+    border: none;
+ }
+ .check button:hover{
+    background-color: rgb(93, 91, 91);
+ }
+
+

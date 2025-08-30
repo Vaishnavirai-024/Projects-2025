@@ -10,12 +10,16 @@ let curr=new Date().getFullYear();
      
  let c=document.querySelector(".container");
     if(curr-yr>=18){
-        c.innerHTML=`<h1>you are valid</h1>
-        <button type="button" onClick="content()" style="width: 60px; height: 20px;">retry</button>`;
+        c.innerHTML=`  <h1 style="text-align: center;">You are valid!</h1>
+        <div id="Retry" style="display: flex; justify-content: center; align-items: center; height: 50px;">
+            <button  type="button" onClick="content()" style="width: 80px; height: 30px; background-color: black; color: white; border-radius: 4px; ">Retry</button>
+        </div>`;
         
     }else{
-        c.innerHTML=`<h1>you are not valid</h1>
-        <button type="button" onClick="content()" style="width: 60px; height: 20px;">retry</button>`;
+         c.innerHTML=`  <h1 style="text-align: center;">You are not valid!</h1>
+        <div id="Retry" style="display: flex; justify-content: center; align-items: center; height: 50px;">
+            <button  type="button" onClick="content()" style="width: 80px; height: 30px; background-color: black; color: white; border-radius: 4px; ">Retry</button>
+        </div>`;
     }
 
 }
