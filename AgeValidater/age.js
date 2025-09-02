@@ -1,4 +1,3 @@
-
 function age(){
 let inp=document.querySelector("#dob");
 
